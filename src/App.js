@@ -8,7 +8,11 @@ function App() {
 
   useEffect(() => {
     tg.ready();
-  }, [])
+  }, [tg])
+
+  // useEffect(() => {
+  //   tg.ready();
+  // }, [])
 
   return (
     <div className="App">
